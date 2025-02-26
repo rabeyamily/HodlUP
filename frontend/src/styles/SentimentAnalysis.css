@@ -1,0 +1,56 @@
+/* SentimentAnalysis.css */
+.sentiment-analysis {
+  scrollbar-width: thin;
+  padding: 15px;
+  height: calc(100vh - 64px);
+  width: 500px; /* Fixed width */
+  overflow-y: auto;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  background: linear-gradient(135deg, rgba(30,30,46,0.9) 0%, rgba(37,42,61,0.9) 100%);
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  position: sticky;
+  top: 40px;
+}
+
+.sentiment-post {
+  background: rgba(19,21,29,0.4);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255,255,255,0.1);
+  word-wrap: break-word; /* Ensure text wraps */
+}
+
+.post-header h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.comment {
+  margin-top: 12px;
+}
+
+.comment p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.sentiment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.sentiment-breakdown {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 12px;
+  gap: 8px;
+}

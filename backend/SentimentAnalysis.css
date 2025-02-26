@@ -1,0 +1,35 @@
+.sentiment-analysis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sentiment-box {
+  background-color: #333842;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #c99200;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.sentiment-box p {
+  font-size: 1.2rem;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.sentiment-box strong {
+  font-size: 1.2rem;
+  color: #c99200;
+}
